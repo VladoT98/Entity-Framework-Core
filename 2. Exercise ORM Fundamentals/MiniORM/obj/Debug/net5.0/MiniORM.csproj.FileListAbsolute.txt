@@ -1,0 +1,12 @@
+C:\Users\vladi\Desktop\C#!!!\Entity Framework Core\Exercise ORM Fundamentals\MiniORM\bin\Debug\net5.0\MiniORM.deps.json
+C:\Users\vladi\Desktop\C#!!!\Entity Framework Core\Exercise ORM Fundamentals\MiniORM\bin\Debug\net5.0\MiniORM.dll
+C:\Users\vladi\Desktop\C#!!!\Entity Framework Core\Exercise ORM Fundamentals\MiniORM\bin\Debug\net5.0\ref\MiniORM.dll
+C:\Users\vladi\Desktop\C#!!!\Entity Framework Core\Exercise ORM Fundamentals\MiniORM\bin\Debug\net5.0\MiniORM.pdb
+C:\Users\vladi\Desktop\C#!!!\Entity Framework Core\Exercise ORM Fundamentals\MiniORM\obj\Debug\net5.0\MiniORM.csproj.AssemblyReference.cache
+C:\Users\vladi\Desktop\C#!!!\Entity Framework Core\Exercise ORM Fundamentals\MiniORM\obj\Debug\net5.0\MiniORM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladi\Desktop\C#!!!\Entity Framework Core\Exercise ORM Fundamentals\MiniORM\obj\Debug\net5.0\MiniORM.AssemblyInfoInputs.cache
+C:\Users\vladi\Desktop\C#!!!\Entity Framework Core\Exercise ORM Fundamentals\MiniORM\obj\Debug\net5.0\MiniORM.AssemblyInfo.cs
+C:\Users\vladi\Desktop\C#!!!\Entity Framework Core\Exercise ORM Fundamentals\MiniORM\obj\Debug\net5.0\MiniORM.csproj.CoreCompileInputs.cache
+C:\Users\vladi\Desktop\C#!!!\Entity Framework Core\Exercise ORM Fundamentals\MiniORM\obj\Debug\net5.0\MiniORM.dll
+C:\Users\vladi\Desktop\C#!!!\Entity Framework Core\Exercise ORM Fundamentals\MiniORM\obj\Debug\net5.0\ref\MiniORM.dll
+C:\Users\vladi\Desktop\C#!!!\Entity Framework Core\Exercise ORM Fundamentals\MiniORM\obj\Debug\net5.0\MiniORM.pdb
