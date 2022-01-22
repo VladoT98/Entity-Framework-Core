@@ -1,0 +1,39 @@
+***PROJECT ORGANIZATION:
+-Data Layer: database connection(context)
+-Domain Models Layer(Models): database models
+-Client Layer(console app, web app, mobile app, etc.): user interaction and logic
+-Business Logic Layer(Core): data validations, transformations
+
+***USAGE OPTIMIZATION:
+-Only fetch the required data
+ context.Employees
+ .Where(e => e.Salary > 100)
+ .Select(e => new {
+        e.FirstName,
+        e.LastName,
+        e.Salary
+        });
+-Delay execution(materialize) until you need the results
+-LINQ queries are executed each time the data is accessed
+-Use AddRange() and RemoveRange() to reduce the calls that EF makes to DetectChanges() each time adding or updating a record
+-When we want only to display data, we should disable the ChangeTracker
+ context.Employees
+ .AsNoTracking()
+ .Where(e => e.Salary > 100)
+ .Select(e => new {
+        e.FirstName,
+        e.LastName,
+        e.Salary
+        });
+
+***LOADING METHODS
+-Lazy: less data, more queries
+-Eager: more data, less queries
+
+***DESIGN PATTERNS
+-Singleton: When we have one object in the application and we can't create another instance of it
+-Service Locator: Finds the service we need and pass it to us(AddService, GetService)
+-Dependency Injection: No client code has to be changed simply because and object it depends on needs to be changed to a different one
+-Command: Save a command and we can execute it when we want to
+-Repository: Separates the data from the business logic. When the business logic wants to access the data, it is accessing them from the Repository
+-Unit of Work: Group multiple operations as one unit. Either all pass or all fail as one
